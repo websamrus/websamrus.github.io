@@ -372,6 +372,7 @@ footer{
     width: 27px;
 }
 
+
 /*//////////////@media//////////////////*/
 
 @media screen and (max-width: 700px) {
@@ -426,13 +427,12 @@ footer{
         margin: 0.5%;
     }
     .artical{
-        margin-right: 1%;
+        margin-right: 1.5%;
     }
     .articalText{
         margin: 1% 0 4% 0;
         width: Calc(100%/2 - 2%);
     }
-
     .siteBar {
         width: 100%;
         display: flex;
@@ -445,9 +445,9 @@ footer{
     .siteBar_ipagGide, .siteBar_week, .siteBar_join {
         margin: 0.5%;
         padding: 2%;
-        width: 320px;
-        min-width: 200px;
-        max-width: 400px;
+        width: 270px;
+        min-width: 180px;
+        max-width: 410px;
     }
     .siteBar_week {
         order: -1;
