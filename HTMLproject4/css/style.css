@@ -372,6 +372,7 @@ footer{
     width: 27px;
 }
 
+/*//////////////@media//////////////////*/
 
 @media screen and (max-width: 700px) {
     .headerMenu{
@@ -407,7 +408,6 @@ footer{
     .bannerBlockAction{
         margin-bottom: 20px;
     }
-
 
     main{
         flex-direction: column;
