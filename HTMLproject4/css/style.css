@@ -445,9 +445,8 @@ footer{
     .siteBar_ipagGide, .siteBar_week, .siteBar_join {
         margin: 0.5%;
         padding: 2%;
-        width: 270px;
-        min-width: 180px;
-        max-width: 410px;
+        width: Calc(100%/3 - 1%);
+        min-width: 200px;
     }
     .siteBar_week {
         order: -1;
@@ -455,5 +454,28 @@ footer{
     .siteBar_weekCircle {
         min-width: 100px;
         max-height: 100px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .siteBar_ipagGide, .siteBar_week, .siteBar_join {
+        margin: 0.5%;
+        padding: 2%;
+        width: Calc(100%/2 - 1%);
+        min-width: 200px;
+    }
+    .siteBar_join{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .siteBar_ipagGide, .siteBar_week, .siteBar_join {
+        margin: 1%;
+        padding: 2%;
+        width: 100%;
+    }
+    .siteBar_ipagGide{
+        min-height: 280px;
     }
 }
