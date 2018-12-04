@@ -469,7 +469,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
     .siteBar_ipagGide, .siteBar_week, .siteBar_join {
         margin: 1%;
         padding: 2%;
