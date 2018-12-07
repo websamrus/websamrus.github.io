@@ -1,0 +1,146 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;  /*не изменяется после падингов*/
+}
+
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+ }
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1024px;
+ }
+.headerSlider{
+    background: rgba(29, 24, 73, 0.87);
+    height: 670px;
+    display: block;
+    position: relative;
+}
+header{
+
+}
+.headerSlider__img{
+    position: absolute;
+    width: 100%;
+    right: 0;top: 0;
+    z-index: -100;
+    height: 670px;
+}
+
+.headerBlock{
+    padding: 12px 15px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBlock__logo{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+     width: calc(100%/12*2);
+
+}
+.headerBlock__logo-img{
+    max-width: 44px;
+}
+.headerBlock__logo-text{
+    margin-left: 20px;
+    font-size: 28px;
+    color: #00e0d0;
+}
+
+.headerBlock__menu {
+    width: calc(100%/12*8);
+    text-align: right;
+}
+
+.headerBlock__menu-li{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 1.5%;
+}
+
+.headerBlock__menu-li a{
+    color: white;
+    text-decoration: none;
+}
+
+.headerBlock_active a,
+.headerBlock__menu-li a:hover{
+    color: #00e0d0;
+}
+
+.slider{
+    height: 90%;
+    text-align: center;
+    color: white;
+}
+.sliderBlock__h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 15%;
+
+}
+.sliderBlock__hr{
+    margin-top: 2%;
+    width: 60px;
+    border: none;
+    height: 1px;
+    background-color: #00e0d0 ;
+    text-align: center;
+    position: relative;
+    left: 47%;
+}
+.sliderBlock__p{
+    margin-top: 2%;
+    font-size: 15px;
+    padding: 0 12%;
+    line-height: 2;
+}
+
+.button_learnMore{
+    background-color: Transparent;
+    /*background-repeat:no-repeat;*/
+    border: #00e0d0 solid 1px;
+    cursor:pointer;
+    /*overflow: hidden;*/
+    padding: 10px;
+    color: #00e0d0;
+    border-radius: 5%;
+    margin-top: 3%;
+}
+
+.sliderBlock__switch{
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderBlock__switch-circle{
+    width: 10px;
+    height: 10px;
+    border: white solid 1px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.sliderBlock__switch-active{
+    border: #00e0d0 solid 1px;
+    background: #00e0d0;
+}
+.sliderBlock__switch :hover{
+    cursor:pointer;
+}
