@@ -52,10 +52,10 @@ header{
      width: calc(100%/12*2);
 
 }
-.headerBlock__logo-img{
+.headerBlockLogo__img{
     max-width: 44px;
 }
-.headerBlock__logo-text{
+.headerBlockLogo__text{
     margin-left: 20px;
     font-size: 28px;
     color: #00e0d0;
@@ -66,20 +66,20 @@ header{
     text-align: right;
 }
 
-.headerBlock__menu-li{
+.headerBlockMenu__li{
     display: inline-block;
     color: white;
     font-size: 12px;
     padding: 1.5%;
 }
 
-.headerBlock__menu-li a{
+.headerBlockMenu__li a{
     color: white;
     text-decoration: none;
 }
 
-.headerBlock_active a,
-.headerBlock__menu-li a:hover{
+.headerBlockMenu__li-active a,
+.headerBlockMenu__li a:hover{
     color: #00e0d0;
 }
 
@@ -130,17 +130,17 @@ header{
     justify-content: center;
     align-items: center;
 }
-.sliderBlock__switch-circle{
+.sliderBlockSwitch__circle{
     width: 10px;
     height: 10px;
     border: white solid 1px;
     border-radius: 50%;
     margin: 5px;
 }
-.sliderBlock__switch-active{
+.sliderBlockSwitch__circle-active{
     border: #00e0d0 solid 1px;
     background: #00e0d0;
 }
-.sliderBlock__switch :hover{
+.sliderBlockSwitch__circle:hover{
     cursor:pointer;
 }
