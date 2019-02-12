@@ -10,8 +10,8 @@
         <div class="bankomat">
 
             <?php
-            if($_POST['money'] != null) {
-                $value = $_POST['money'];
+            if($_GET['money'] != null) {
+                $value = $_GET['money'];
                 if (ctype_digit($value) && (int)$value > 0)
                 {
                     $money = (int) $value;
